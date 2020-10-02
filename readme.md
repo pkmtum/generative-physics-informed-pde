@@ -1,11 +1,6 @@
-
-Name: GenerativePhysicsInformedPDE
-
-
 # Content
 
-
-This repository contains the implementation of a generative model, employing semi-supervised learning and physical constraints to learn the input-output map implicitly defined by a linear elliptic partial differential equation. The encoder and decoder are based on convolutional neural networks, and a physical coarse-grained model is embedded within the computational graph of PyTorch. The model is trained using stochastic variational inference to optimize the evidence lower bound, which in addition to making use of unlabeled and labeled data is also incorporates physical constraints.
+This repository contains the implementation of a generative model, employing semi-supervised learning and physical constraints to learn the input-output map implicitly defined by a linear elliptic partial differential equation. The encoder and decoder are based on convolutional neural networks, and a physical coarse-grained model is embedded within the computational graph of PyTorch. The model is trained using stochastic variational inference to optimize the evidence lower bound, which incorporates physical information in addition to labeled and unlabeled data.
 
 # Dependencies
 
@@ -15,7 +10,6 @@ The implementation makes use of PyTorch [PyTorch](https://pytorch.org/) for mach
 
 * pytorch 1.1.0
 * fenics 2018.1.0
-
 
 
 # Examples
